@@ -2,7 +2,6 @@ package com.Task.TaskMangementSystem.Validation;
 
 import com.Task.TaskMangementSystem.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
@@ -12,6 +11,7 @@ public class EmailValidator implements ConstraintValidator<UniqueEmail, String> 
 
     @Override
     public void initialize(UniqueEmail constraintAnnotation) {
+
     }
 
     @Override
